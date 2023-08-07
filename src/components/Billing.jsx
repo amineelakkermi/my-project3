@@ -1,6 +1,5 @@
 import { apple , bill , google  } from "../assets"
 import styles , { layout } from "../style"
-import Fade from 'react-reveal/Fade';
 
 
 const Billing = () => {
@@ -14,9 +13,9 @@ const Billing = () => {
       <div className={`${layout.sectionInfo}`}>
       
      
-      <Fade right >
+     
       <h1 className={`${styles.heading2}`}>Easily control your billing & invoicing.</h1>
-      </Fade>
+      
      
       <p className={`${styles.paragraph}`}>Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.</p>
       <div className={`flex flex-row flex-wrap  mt-12`}>
